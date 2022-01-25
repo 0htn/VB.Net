@@ -8,8 +8,8 @@ Public Class Calculator
 	    Dim operators As New List(Of String) From
 	      {"+", "-", "*", "/", "^"}
 
-	  int1 = txtIntOne.Text
-	  int2 = txtIntTwo.Text
+	  int1 = intOne.Text
+	  int2 = intTwo.Text
 
 	    'Process the data
 	    For Each operato As String In operators
