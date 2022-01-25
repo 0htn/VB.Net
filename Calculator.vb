@@ -1,5 +1,5 @@
 Public Class Calculator
-  Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
+	Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
 		'Calculate the numeric expression
 		On Error Resume Next
 		Dim int1 As Integer 'From User
