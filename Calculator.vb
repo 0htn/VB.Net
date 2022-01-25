@@ -1,4 +1,5 @@
-	  Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
+Public Class Calculator
+	Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
 	    'Calculate the numeric expression
 	    On Error Resume Next
 	    Dim int1 As Integer 'From User
@@ -38,4 +39,4 @@
 	    Operators_.Clear()
 	  End Sub
 
-	End Class
+End Class
