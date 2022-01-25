@@ -31,7 +31,6 @@ Public Class Calculator
 
 		'Output the result
 		MsgBox(result)
-
 	End Sub
 
 	Private Sub btnReset_Click(sender As Object, e As EventArgs) Handles btnReset.Click
