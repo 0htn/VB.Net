@@ -1,4 +1,4 @@
-Public Class Sales_Analysis
+Public Class Analysis
   Private Sub btnStatus_Output_Click(sender As Object, e As EventArgs) Handles btnStatus_Output.Click
     
     On Error Resume Next
